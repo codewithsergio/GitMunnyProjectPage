@@ -1,0 +1,16 @@
+.featureCard{
+    display: flex;
+    line-height: 2.5rem;
+    background-color: var(--tint);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 2px 15px rgba(200, 200, 200, 0.5);
+    color: var(--dark-green);
+    margin-top: 2rem;
+}
+
+.featureCard .iconify{
+    font-size: 3.5rem;
+    margin: 0;
+    margin-right: 0.75rem;
+}
