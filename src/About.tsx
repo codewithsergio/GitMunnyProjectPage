@@ -3,7 +3,7 @@ import aeisha from "./assets/aeisha.jpeg";
 import eden from "./assets/eden.jpeg";
 import sergio from "./assets/sergio.png";
 import dylan from "./assets/dylan.png";
-import gabe from "./assets/gabe.jpeg";
+import gabe from "./assets/gabe.png";
 
 function About() {
   return (
@@ -15,7 +15,12 @@ function About() {
         <div className="cards">
           <div className="card">
             <div id="longAccent1"></div>
-            <img src={sergio} />
+            <a
+              href="https://www.linkedin.com/in/sergio-ehernandez/"
+              target="_blank"
+            >
+              <img src={sergio} />
+            </a>
             <div>
               <h2>Sergio Hernandez</h2>
               <p>MOBILE / WEB DEVELOPER</p>
@@ -23,7 +28,12 @@ function About() {
           </div>
           <div className="card">
             <div id="longAccent2"></div>
-            <img src={eden} />
+            <a
+              href="https://www.linkedin.com/in/eden-rosales-588054223/"
+              target="_blank"
+            >
+              <img src={eden} />
+            </a>
             <div>
               <h2>Eden Rosales</h2>
               <p>MOBILE DEVELOPER | DESIGNER</p>
@@ -31,21 +41,33 @@ function About() {
           </div>
           <div className="card">
             <div id="longAccent3"></div>
-            <img src={gabe} />
+            <a
+              href="https://www.linkedin.com/in/gabriel-mourad-4a4a93242/"
+              target="_blank"
+            >
+              <img src={gabe} />
+            </a>
             <div>
               <h2>Gabriel Mourad</h2>
               <p>WEB DEVELOPER</p>
             </div>
           </div>
           <div className="card">
-            <img src={aeisha} />
+            <a
+              href="https://www.linkedin.com/in/aiesha-angeles/"
+              target="_blank"
+            >
+              <img src={aeisha} />
+            </a>
             <div>
               <h2>Aeisha Angeles</h2>
               <p>WEB/MOBILE UI DESIGNER</p>
             </div>
           </div>
           <div className="card">
-            <img src={dylan} />
+            <a href="https://github.com/DylanMoon" target="_blank">
+              <img src={dylan} />
+            </a>
             <div>
               <h2>Dylan Moon</h2>
               <p>BACKEND DEVELOPER</p>

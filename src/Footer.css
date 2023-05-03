@@ -32,6 +32,12 @@
     background-color: #6ab075;
     border-radius: 5rem;
     padding: 0.25rem;
+    transition: all ease-in-out 0.2s;
+}
+
+.footer .iconify:hover{
+    background-color: white;
+    color: var(--green-accent);
 }
 
 .footer .underneath{
@@ -51,14 +57,11 @@
     color: white;
     padding: 0.3rem 0.8rem 0.3rem 0.8rem;
     border-radius: 1rem;
-}
-
-.footer a {
     text-decoration: none;
     transition: all ease-in-out 0.2s;
 }
 
-.footer a:hover{
+.footer .course_page:hover{
     background-color: white;
     color: var(--green-accent);
 }

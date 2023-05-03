@@ -8,6 +8,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); */
 }
 
 .navbar > div .nodec{
