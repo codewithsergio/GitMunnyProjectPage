@@ -65,7 +65,7 @@ function TechUsed() {
           </div>
         </div>
       </div>
-      <h1>Skills Used</h1>
+      <h1 id="skillsUsed">Skills Used</h1>
       <div className="techCards">
         <div className="techCard">
           <span

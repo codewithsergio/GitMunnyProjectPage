@@ -13,12 +13,6 @@
     border-radius: 1rem;
 }
 
-.How_It_Works .sliderButton{
-    width: 60px;
-    height: 60px;
-    background-color: blue;
-}
-
 .How_It_Works .phone_carousal{
     display: flex;
     align-items: center;
@@ -26,6 +20,7 @@
 
 .How_It_Works .iconify{
     font-size: 3rem;
+    cursor: pointer;
 }
 
 .How_It_Works .phone_carousal img{

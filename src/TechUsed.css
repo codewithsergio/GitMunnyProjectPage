@@ -69,5 +69,14 @@
         z-index: 1;
         clip-path: polygon(0% 8%, 69% 0%, 100% 8%, 100% 90%, 26% 100%, 0% 90%);
     }
+
+    .tech .iconify{
+        font-size: 3rem;
+        margin-right: 1rem;
+    }
+
+    .tech #skillsUsed{
+        margin-top: 9rem;
+    }
     
 }
