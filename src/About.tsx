@@ -60,7 +60,7 @@ function About() {
               <img src={aeisha} />
             </a>
             <div>
-              <h2>Aeisha Angeles</h2>
+              <h2>Aiesha Angeles</h2>
               <p>WEB/MOBILE UI DESIGNER</p>
             </div>
           </div>
