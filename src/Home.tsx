@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="home">
       <div className="front">
-        <h1>Budget dat cash</h1>
+        <h1>Budget your cash</h1>
         <p>Made to assist college students in budgeting their expenses</p>
         <a href="https://gitmunny.web.app/login" target="_blank">
           GET STARTED
@@ -34,9 +34,9 @@ function Home() {
         <div>
           <p>How it works</p>
           <p id="slogan">
-            Budget to do what you love the most and save now so you can do
-            later. With our mobile and web application you can keep track of
-            your budget no matter where you are.
+            "Saving money is a form of self-preservation; it may not always feel
+            good in the moment, but it will pay off in the long run." - Joshua
+            Becker
           </p>
         </div>
       </div>
@@ -48,7 +48,6 @@ function Home() {
           budgeting to help to get them in the habit of making better financial
           decisions and finacial literacy. It's also real world experience for
           us developers to practice managing a used application with real users.
-          Did we mention financial literacy...
         </p>
         <div className="featureCards">
           <FeatureCard

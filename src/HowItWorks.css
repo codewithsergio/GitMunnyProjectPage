@@ -2,11 +2,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--black-accent);
 }
 
 .How_It_Works .video_player{
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
     margin: 1rem 0 5rem 0;
-    height: max-content;
+    height: 26rem;
+    width: 46rem;
     border-radius: 1rem;
+}
+
+.How_It_Works .sliderButton{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+}
+
+.How_It_Works .phone_carousal{
+    display: flex;
+    align-items: center;
+}
+
+.How_It_Works .iconify{
+    font-size: 3rem;
+}
+
+.How_It_Works .phone_carousal img{
+    width: 20rem;
+}
+
+@media screen and (max-width: 870px) {
+    .How_It_Works .video_player{
+        height: 20rem;
+        width: 30rem;
+    }
 }

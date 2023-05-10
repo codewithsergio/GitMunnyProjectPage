@@ -11,7 +11,7 @@
     color: var(--green-accent)
 }
 
-.home a{
+.front a{
     padding: 1rem 1.5rem 1rem 1.5rem;
     border-radius: 3rem;
     font-size: 1.2rem;
@@ -25,7 +25,7 @@
     text-decoration: none;
 }
 
-.home a:hover{
+.front a:hover{
     transform: scale(1.15);
     background-color: var(--dark-purple);
 }
@@ -86,10 +86,12 @@
 #phone{
     height: 300px;
     margin-left: 6rem;
+    margin-top: 5rem;
 }
 
 #happytree{
     height: 250px;
+    margin-top: 5rem;
 }
 
 .home .iconify{
@@ -130,6 +132,7 @@
     width: 50rem;
     margin: auto;
     line-height: 2rem;
+    color: var(--black-accent);
 }
 
 .home .purpose > p, .home .purpose > h1{
@@ -143,4 +146,61 @@
     column-gap: 1rem;
     width: 90%;
     margin: auto;
+}
+
+
+@media screen and (max-width: 870px) {
+    .home .front h1{
+        font-size: 2rem;
+    }
+    .home .front p{
+        font-size: 1rem;
+    }
+    .home .front a{
+        font-size: 1rem;
+    }
+    #phone{
+        height: 200px;
+        margin-left: 0;
+        margin: 1rem;
+        margin-top: 5rem;
+    }
+    #happytree{
+        margin: 1rem;
+        height: 150px;
+        margin-top: 5rem;
+    }
+    .home .weirdShapeContent div:last-child {
+        width: 100%;
+    }
+
+    .home .weirdShapeContent div:first-child {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .home .weirdShapeContent div:last-child p:first-child {
+        font-size: 1.25rem;
+        letter-spacing: 0.1rem;
+        font-weight: 700;
+    }
+    #slogan{
+        width: 30rem;
+        font-size: 1rem;
+        margin-right: 0;
+        line-height: 2rem;
+    }
+
+    .home .purpose > p{
+        width: 30rem;
+    }
+
+.home .featureCards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+    column-gap: 1rem;
+    width: 90%;
+}
 }

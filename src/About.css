@@ -1,5 +1,6 @@
 .about{
-    height: 90vh;
+    color: var(--black-accent);
+    margin-bottom: 5rem;
 }
 
 .about .cards{
@@ -30,7 +31,7 @@
 
 .about .ourphotos h1{
     font-size: 3rem;
-    margin-left: 10rem;
+    text-align: center;
 }
 
 .about .ourphotos{
@@ -94,4 +95,27 @@
     z-index: -1;
     border-radius: 5rem;
     margin-left: 8.5rem;
+}
+
+@media screen and (max-width: 1250px) {
+    .about .ourphotos h1{
+        font-size: 2rem;
+    }
+    .about .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .about .ourphotos h1 > span{
+        display: block;
+        margin-top: 1rem;
+    }
+    .about .cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about .card{
+        justify-content: center;
+        align-items: center;
+    }
 }

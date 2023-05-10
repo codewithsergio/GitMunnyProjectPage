@@ -10,11 +10,11 @@ function About() {
     <div className="about">
       <div className="ourphotos">
         <h1>
-          Brains behind deh code <span>Get to Know Us</span>
+          Brains behind the code <span>Get to Know Us</span>
         </h1>
         <div className="cards">
           <div className="card">
-            <div id="longAccent1"></div>
+            {/* <div id="longAccent1"></div> */}
             <a
               href="https://www.linkedin.com/in/sergio-ehernandez/"
               target="_blank"
@@ -27,7 +27,7 @@ function About() {
             </div>
           </div>
           <div className="card">
-            <div id="longAccent2"></div>
+            {/* <div id="longAccent2"></div> */}
             <a
               href="https://www.linkedin.com/in/eden-rosales-588054223/"
               target="_blank"
@@ -40,7 +40,7 @@ function About() {
             </div>
           </div>
           <div className="card">
-            <div id="longAccent3"></div>
+            {/* <div id="longAccent3"></div> */}
             <a
               href="https://www.linkedin.com/in/gabriel-mourad-4a4a93242/"
               target="_blank"

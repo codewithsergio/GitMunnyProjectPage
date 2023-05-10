@@ -21,3 +21,8 @@
     color: var(--green-accent);
     font-size: 1.1rem;
 }
+@media screen and (max-width: 870px) {
+    .navbar h1{
+        font-size: 1.3rem;
+    }
+}

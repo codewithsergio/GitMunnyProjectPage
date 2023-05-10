@@ -6,10 +6,12 @@ function TechUsed() {
       <h1>Technology Used</h1>
       <div className="techCards">
         <div className="techCard">
-          <span
-            className="green iconify iconifySkills"
-            data-icon="logos:react"
-          ></span>
+          <a href="https://react.dev" target="_blank">
+            <span
+              className="green iconify iconifySkills"
+              data-icon="logos:react"
+            ></span>
+          </a>
           <div>
             <p>React.js</p>
             <p>
@@ -18,10 +20,12 @@ function TechUsed() {
           </div>
         </div>
         <div className="techCard">
-          <span
-            className="green iconify iconifySkills"
-            data-icon="tabler:brand-react-native"
-          ></span>
+          <a href="https://reactnative.dev" target="_blank">
+            <span
+              className="green iconify iconifySkills"
+              data-icon="tabler:brand-react-native"
+            ></span>
+          </a>
           <div>
             <p>React Native</p>
             <p>
@@ -31,10 +35,12 @@ function TechUsed() {
           </div>
         </div>
         <div className="techCard">
-          <span
-            className="green iconify iconifySkills"
-            data-icon="vscode-icons:file-type-firebase"
-          ></span>
+          <a href="https://firebase.google.com" target="_blank">
+            <span
+              className="green iconify iconifySkills"
+              data-icon="vscode-icons:file-type-firebase"
+            ></span>
+          </a>
           <div>
             <p>Firebase</p>
             <p>
@@ -44,10 +50,12 @@ function TechUsed() {
           </div>
         </div>
         <div className="techCard">
-          <span
-            className="green iconify iconifySkills"
-            data-icon="tabler:api"
-          ></span>
+          <a href="https://plaid.com/docs/" target="_blank">
+            <span
+              className="green iconify iconifySkills"
+              data-icon="tabler:api"
+            ></span>
+          </a>
           <div>
             <p>Plaid API</p>
             <p>
@@ -57,7 +65,51 @@ function TechUsed() {
           </div>
         </div>
       </div>
+      <h1>Skills Used</h1>
+      <div className="techCards">
+        <div className="techCard">
+          <span
+            className="green iconify iconifySkills"
+            data-icon="mdi:github"
+          ></span>
+          <div>
+            <p>Version Control</p>
+            <p>Managed different versions of our project.</p>
+          </div>
+        </div>
+        <div className="techCard">
+          <span
+            className="green iconify iconifySkills"
+            data-icon="akar-icons:css-fill"
+          ></span>
+          <div>
+            <p>UI Design</p>
+            <p>Designed the look of our site with CSS and Figma.</p>
+          </div>
+        </div>
+        <div className="techCard">
+          <span
+            className="green iconify iconifySkills"
+            data-icon="mdi:password-remove-outline"
+          ></span>
+          <div>
+            <p>User Authentication</p>
+            <p>Protected client data with authentication.</p>
+          </div>
+        </div>
+        <div className="techCard">
+          <span
+            className="green iconify iconifySkills"
+            data-icon="codicon:debug-alt-small"
+          ></span>
+          <div>
+            <p>Debugging</p>
+            <p>Experience in editing team members code.</p>
+          </div>
+        </div>
+      </div>
       <div className="weirdShape"></div>
+      <div className="weirdShape2"></div>
     </div>
   );
 }
